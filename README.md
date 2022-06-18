@@ -43,6 +43,22 @@
   <a href="https://www.instagram.com/carlos.asrc" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
   
+### Trabalhos Acadêmicos (Academic Papers):
+  [Minha Atuação na Agência Experimental de Engenharia de Software.pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934020/Minha.Atuacao.na.Agencia.Experimental.de.Engenharia.de.Software.pdf)
+  
+[Trabalho Acadêmico - Blockchain.pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934021/Trabalho.Academico.-.Blockchain.pdf)
+  
+[Trabalho Acadêmico - Bully Algorithm.pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934022/Trabalho.Academico.-.Bully.Algorithm.pdf)
+  
+[Trabalho Acadêmico - P2P.pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934023/Trabalho.Academico.-.P2P.pdf)
+  
+[Trabalho Acadêmico - Problema do caixeiro-viajante (Travelling salesman problem).pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934024/Trabalho.Academico.-.Problema.do.caixeiro-viajante.Travelling.salesman.problem.pdf)
+  
+[Trabalho Acadêmico - Programação Paralela.pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934025/Trabalho.Academico.-.Programacao.Paralela.pdf)
+  
+[Trabalho Acadêmico - Segurança de Sistemas.pdf](https://github.com/CarlosAsrc/CarlosAsrc/files/8934026/Trabalho.Academico.-.Seguranca.de.Sistemas.pdf)
+
+    
   
 <!--
 **CarlosAsrc/CarlosAsrc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
