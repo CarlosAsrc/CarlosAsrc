@@ -1,4 +1,6 @@
 ### Hi 👋, I'm Carlos, a Software Engineer looking to impact the world with successful technology-driven businesses.
+![](https://komarev.com/ghpvc/?username=CarlosAsrc)
+
 
 - 🔭 I'm currently working on backend development on an event-driven microservice architecture for a finance company.
 - :speech_balloon: I'm currently practicing writing and speaking english skills.
