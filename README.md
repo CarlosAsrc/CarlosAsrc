@@ -2,9 +2,9 @@
 ![](https://komarev.com/ghpvc/?username=CarlosAsrc)
 
 
-- 🔭 I'm currently working on backend development on an event-driven microservice architecture for a finance company.
+- 🔭 I'm currently working on backend development with microservice architecture on Mercado Livre.
 - :speech_balloon: I'm currently practicing writing and speaking english skills.
-- 🌱 I’m currently learning frontend development with ReactJS, and also smart contract development for blockchain with Solidity programming language.
+- 🌱 I’m currently learning frontend development with ReactJS.
 - 🤔 I’m looking for help with resources and advices to become a better developer day by day!
 - 📫 How to reach me: you can contact me via <a href="https://www.linkedin.com/in/carlos-asrc" target="_blank">Linkedin</a> or <a href="mailto:carlos.asrc@gmail.com" target="_blank">Email</a>. Feel free to do so!
 
