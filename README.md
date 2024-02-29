@@ -1,8 +1,8 @@
-### Hi 👋, I'm Carlos, a Software Engineer looking to impact the world with successful technology-driven businesses.
+### Hi 👋, I'm Carlos, a Senior Software Engineer looking to impact the world with successful technology-driven businesses.
 ![](https://komarev.com/ghpvc/?username=CarlosAsrc)
 
 
-- 🔭 I'm currently working on backend development with microservice architecture on Mercado Livre.
+- 🔭 I'm currently working on backend engineering with microservices architecture (Java and Springboot based microservices) on Mercado Livre.
 - :speech_balloon: I'm currently practicing writing and speaking english skills.
 - 🌱 I’m currently learning the GO programming language, and frontend development with ReactJS.
 - 🤔 I’m looking for help with resources and advices to become a better developer day by day!
