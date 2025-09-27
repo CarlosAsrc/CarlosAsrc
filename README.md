@@ -2,9 +2,8 @@
 ![](https://komarev.com/ghpvc/?username=CarlosAsrc)
 
 
-- 🔭 I'm currently working on backend engineering with microservices architecture (Java and Springboot based microservices) on Mercado Livre.
-- :speech_balloon: I'm currently practicing writing and speaking english skills.
-- 🌱 I’m currently learning the GO programming language.
+- 🔭 I'm currently working on backend engineering with microservices architecture (mainly in Clojure) and AI based applications (python, context engineering, LangGraph) at Nubank.
+- 🌱 I’m daily learning and practicing AI Engineering skills.
 - 🤔 I’m looking for help with resources and advices to become a better developer day by day!
 - 📫 How to reach me: you can contact me via <a href="https://www.linkedin.com/in/carlos-asrc" target="_blank">Linkedin</a> or <a href="mailto:carlos.asrc@gmail.com" target="_blank">Email</a>. Feel free to do so!
 
