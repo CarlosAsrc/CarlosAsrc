@@ -17,6 +17,9 @@
 </div>
 
 <div style="display: inline_block"><br>
+  <img align="center" height="35" width="40" src="https://github.com/user-attachments/assets/1896b90d-0fb8-4345-a345-b08c35cf90e9" />
+  <img align="center" height="35" width="40" src="https://github.com/user-attachments/assets/630e60c4-ddb0-4272-995c-0da73cbd6b41" />
+  <img align="center" height="50" width="55" src="https://github.com/user-attachments/assets/cb124c80-eaaf-4d03-b1bf-cb954bdfc303" />
   <img align="center" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
   <img align="center" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
   <img align="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" />
