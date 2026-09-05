@@ -1,0 +1,12 @@
+{
+  "name": "carlos-github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:visuals": "node scripts/build-visuals.cjs"
+  },
+  "devDependencies": {
+    "lucide": "1.8.0",
+    "marked": "17.0.5"
+  }
+}
