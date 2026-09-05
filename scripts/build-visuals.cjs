@@ -43,8 +43,8 @@ const stages = [
 const text = (x,y,value,cls,extra='') => `<text x="${x}" y="${y}" class="${cls}" ${extra}>${esc(value)}</text>`;
 function timeline(mobile, theme, animate = true) {
   const dark = theme === 'dark';
-  const W = mobile ? 420 : 920, H = mobile ? 884 : 628;
-  const ys = mobile ? [110,366,622] : [116,286,456];
+  const W = mobile ? 420 : 920, H = mobile ? 780 : 628;
+  const ys = mobile ? [12,266,520] : [116,286,456];
   const spineX = mobile ? 28 : 116;
   const nodeYs = ys.map(y => y + (mobile ? 26 : 32));
   const palette = dark ? {bg:'#0d1117',surface:'#151b23',border:'#303945',text:'#e6edf3',muted:'#a3adbb',chip:'#1c2530',line:'#354252'} : {bg:'#ffffff',surface:'#f6f8fa',border:'#d8dee4',text:'#1f2328',muted:'#57606a',chip:'#ffffff',line:'#c6d0db'};
@@ -58,8 +58,8 @@ function timeline(mobile, theme, animate = true) {
     ${animate ? `@media(prefers-reduced-motion:no-preference){.trace{animation:trace 3.6s ease-in-out both}.halo{animation:halo .9s ease-out both}.h0{animation-delay:.1s}.h1{animation-delay:1.5s}.h2{animation-delay:3s}}
     @keyframes trace{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}@keyframes halo{0%{opacity:0;stroke-width:1}35%{opacity:.7;stroke-width:6}100%{opacity:0;stroke-width:1}}` : ''}
   </style><rect width="${W}" height="${H}" rx="16" fill="var(--bg)"/>
-  ${text(mobile?20:32,45,mobile?'Backend → cloud → AI':'A career built on backend systems','heading')}
-  ${text(mobile?20:32,74,'Digital banking · Logistics · AI platforms','caption')}
+  ${mobile ? '' : text(32,45,'A career built on backend systems','heading')}
+  ${mobile ? '' : text(32,74,'Digital banking · Logistics · AI platforms','caption')}
   <path d="M${spineX} ${nodeYs[0]} V${nodeYs[2]}" fill="none" stroke="var(--line)" stroke-width="2"/>
   <path class="trace" pathLength="100" d="M${spineX} ${nodeYs[0]} V${nodeYs[2]}" fill="none" stroke="${dark?'#a995e8':'#8250df'}" stroke-width="2"/>`;
   stages.forEach((stage,i)=>{
@@ -96,7 +96,7 @@ fs.writeFileSync(path.join(root,'assets/experience-static.svg'),timeline(false,'
 // Local preview renders the actual README and uses its repository-relative assets.
 const body=marked.parse(fs.readFileSync(path.join(root,'README.md'),'utf8'));
 const preview=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Carlos · GitHub README preview</title><style>
-  :root{color-scheme:light dark;--bg:light-dark(#fff,#0d1117);--fg:light-dark(#1f2328,#e6edf3);--muted:light-dark(#57606a,#919ba8);--line:light-dark(#d1d9e0,#30363d);--soft:light-dark(#f6f8fa,#151b23);--link:light-dark(#0969da,#79b8ff)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}main{max-width:984px;margin:36px auto;padding:32px;border:1px solid var(--line);border-radius:8px}h1{font-size:32px;line-height:1.25;padding-bottom:12px;border-bottom:1px solid var(--line)}h2{font-size:24px;line-height:1.35;margin-top:32px;padding-bottom:8px;border-bottom:1px solid var(--line)}h1,h2,h3{letter-spacing:-.3px}h2 img{vertical-align:-3px}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}p,ul,table,details{margin:0 0 16px}img{max-width:100%;height:auto}p>img,p>a>img{vertical-align:middle}picture{display:block}picture>img{display:block;width:100%;height:auto}table{border-collapse:collapse;width:100%;display:block;overflow:auto}th,td{padding:10px 14px;text-align:left;border:1px solid var(--line)}th{background:var(--soft)}td img{vertical-align:middle}code{font-size:85%;padding:.2em .4em;background:var(--soft);border-radius:6px}summary{cursor:pointer;color:var(--muted)}details[open]>summary{margin-bottom:16px}sub{color:var(--muted)}@media(max-width:600px){main{margin:0;border:0;padding:18px}h1{font-size:28px}h2{font-size:22px}td,th{padding:8px}body{font-size:15px}}
+  :root{color-scheme:light dark;--bg:light-dark(#fff,#0d1117);--fg:light-dark(#1f2328,#e6edf3);--muted:light-dark(#57606a,#919ba8);--line:light-dark(#d1d9e0,#30363d);--soft:light-dark(#f6f8fa,#151b23);--link:light-dark(#0969da,#79b8ff)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}main{max-width:984px;margin:36px auto;padding:32px;border:1px solid var(--line);border-radius:8px}h1{font-size:32px;line-height:1.25;padding-bottom:12px;border-bottom:1px solid var(--line)}h2{font-size:24px;line-height:1.35;margin-top:32px;padding-bottom:8px;border-bottom:1px solid var(--line)}h1,h2,h3{letter-spacing:-.3px}h2 img{vertical-align:-3px}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}p,ul,table,details{margin:0 0 16px}img{max-width:100%;height:auto}p>img,p>a>img{vertical-align:middle}picture{display:block}picture>img{display:block;max-width:100%;height:auto}table{border-collapse:collapse;width:100%;display:block;overflow:auto}th,td{padding:10px 14px;text-align:left;border:1px solid var(--line)}th{background:var(--soft)}td img{vertical-align:middle}code{font-size:85%;padding:.2em .4em;background:var(--soft);border-radius:6px}summary{cursor:pointer;color:var(--muted)}details[open]>summary{margin-bottom:16px}sub{color:var(--muted)}@media(max-width:600px){main{margin:0;border:0;padding:18px}h1{font-size:28px}h2{font-size:22px}td,th{padding:8px}body{font-size:15px}}
   </style></head><body><main>${body}</main></body></html>`;
 fs.writeFileSync(path.join(root,'README-preview.html'),preview);
 console.log('Generated 5 timelines, section icons, and README-preview.html.');

@@ -20,10 +20,8 @@ At Nubank, I'm part of the **Agentic Platform team**, building internal SDKs, LL
 ## <img src="./assets/icons/career.svg" width="24" height="24" alt=""> Experience timeline
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/experience-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="./assets/experience-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/experience-dark.svg">
-  <img src="./assets/experience-light.svg" width="920" alt="Career timeline: 2019–2022 at ilegra, serving Agibank, with Java, Spring Boot, Kafka, and RabbitMQ; 2022–2025 at Mercado Livre with Java, Spring Boot, Go, and PostgreSQL; since February 2025 at Nubank, progressing from customer-support AI to the Agentic Platform team, building SDKs, LLM gateways, MCP servers, and reusable components.">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/experience-dark-mobile.svg">
+  <img src="./assets/experience-light-mobile.svg" width="420" alt="Career timeline: 2019–2022 at ilegra, serving Agibank, with Java, Spring Boot, Kafka, and RabbitMQ; 2022–2025 at Mercado Livre with Java, Spring Boot, Go, and PostgreSQL; since February 2025 at Nubank, progressing from customer-support AI to the Agentic Platform team, building SDKs, LLM gateways, MCP servers, and reusable components.">
 </picture>
 
 [Nubank customer-support AI · Public case study](https://openai.com/index/nubank/)
