@@ -26,13 +26,13 @@ function brand(name, x, y, size = 20) {
   body = body.replace(/\bid="([^"]+)"/g, (_, id) => `id="${prefix}${id}"`).replace(/url\(#([^)]+)\)/g, (_, id) => `url(#${prefix}${id})`).replace(/href="#([^"]+)"/g, (_, id) => `href="#${prefix}${id}"`);
   if(name==='kafka') body=body.replace(/#231f20/gi,'var(--text)');
   // Kafka's source uses an implicit black fill; a neutral icon stays readable in both themes.
-  const fill = name === 'kafka' ? 'var(--text)' : '#111827';
+  const fill = ['kafka','langchain','langgraph'].includes(name) ? 'var(--text)' : '#111827';
   return `<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="${viewBox}" fill="${fill}">${body}</svg>`;
 }
 fs.mkdirSync(path.join(root,'assets/badges'),{recursive:true});
-for(const [name,label] of [['java','Java'],['spring','Spring Boot'],['clojure','Clojure'],['python','Python'],['go','Go']]) {
+for(const [name,label] of [['aws','AWS'],['java','Java'],['spring','Spring Boot'],['kafka','Kafka'],['clojure','Clojure'],['python','Python'],['langchain','LangChain'],['langgraph','LangGraph'],['go','Go']]) {
   const width=Math.ceil(label.length*7.5+48);
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="32" viewBox="0 0 ${width} 32" role="img" aria-label="${esc(label)}"><style>.surface{fill:#f6f8fa;stroke:#d8dee4}.label{fill:#1f2328}@media(prefers-color-scheme:dark){.surface{fill:#151b23;stroke:#303945}.label{fill:#e6edf3}}</style><rect class="surface" x=".5" y=".5" width="${width-1}" height="31" rx="7"/>${brand(name,10,6,20)}<text class="label" x="36" y="21" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14" font-weight="500">${esc(label)}</text></svg>\n`;
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="32" viewBox="0 0 ${width} 32" role="img" aria-label="${esc(label)}"><style>:root{--text:#1f2328}.surface{fill:#f6f8fa;stroke:#d8dee4}.label{fill:#1f2328}@media(prefers-color-scheme:dark){:root{--text:#e6edf3}.surface{fill:#151b23;stroke:#303945}.label{fill:#e6edf3}}</style><rect class="surface" x=".5" y=".5" width="${width-1}" height="31" rx="7"/>${brand(name,10,6,20)}<text class="label" x="36" y="21" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14" font-weight="500">${esc(label)}</text></svg>\n`;
   fs.writeFileSync(path.join(root,'assets/badges',`${name}.svg`),svg);
 }
 const stages = [

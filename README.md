@@ -7,10 +7,14 @@ I have 7+ years of experience building distributed systems for digital banking, 
 At Nubank, I'm part of the **Agentic Platform team**, building internal SDKs, LLM gateways, MCP servers, and reusable components and infrastructure for teams building AI agents across the company.
 
 <p>
+  <img src="./assets/badges/aws.svg" alt="AWS" height="32">
   <img src="./assets/badges/java.svg" alt="Java" height="32">
   <img src="./assets/badges/spring.svg" alt="Spring Boot" height="32">
+  <img src="./assets/badges/kafka.svg" alt="Kafka" height="32">
   <img src="./assets/badges/clojure.svg" alt="Clojure" height="32">
   <img src="./assets/badges/python.svg" alt="Python" height="32">
+  <img src="./assets/badges/langchain.svg" alt="LangChain" height="32">
+  <img src="./assets/badges/langgraph.svg" alt="LangGraph" height="32">
   <img src="./assets/badges/go.svg" alt="Go" height="32">
 </p>
 
