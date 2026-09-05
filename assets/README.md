@@ -5,7 +5,7 @@ Upload the entire `assets/` directory alongside the root `README.md` when updati
 ## Included assets
 
 - `experience-light.svg` and `experience-dark.svg`: desktop career timeline.
-- `experience-light-mobile.svg` and `experience-dark-mobile.svg`: stacked timeline for narrow screens.
+- `experience-light-mobile.svg` and `experience-dark-mobile.svg`: compact stacked timeline used by the profile at all screen sizes.
 - `experience-static.svg`: a still version, available if you prefer to remove animation later.
 - `badges/`: labeled language/framework badges.
 - `icons/`: consistent section and topic icons.
@@ -13,7 +13,7 @@ Upload the entire `assets/` directory alongside the root `README.md` when updati
 
 The timeline draws its connecting line and briefly highlights each career stage. The sequence finishes in 3.9 seconds and does not loop. All information is visible before and after the animation. Motion is enabled only under `prefers-reduced-motion: no-preference`; the default is a complete static diagram.
 
-The README uses `<picture>` to choose light/dark and desktop/mobile variants. It also retains full experience descriptions in a collapsible text section and supplies a descriptive image alternative.
+The README uses `<picture>` to choose the light/dark compact variant, capped at 420 pixels wide and shrinking to fit narrower screens. The desktop variants remain available as alternatives. It also retains full experience descriptions in a collapsible text section and supplies a descriptive image alternative.
 
 These SVGs contain no scripts, remote fonts, external image references, or network calls. GitHub hosts the files with the profile repository. The local HTML preview approximates GitHub's Markdown layout.
 
